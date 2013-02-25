@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout4" android:layout_width="fill_parent" android:background="@drawable/top_strip"></LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@drawable/bg" android:orientation="vertical" android:gravity="center">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/welcome" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:id="@+id/llName"></LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_margin="20dp">
+            <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout5" android:layout_width="fill_parent" android:background="@drawable/box_top"></LinearLayout>
+            <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout7" android:layout_width="fill_parent" android:orientation="vertical" android:background="@drawable/box_middle">
+                <TextView android:id="@+id/txtPassword" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="40dp" android:text="Enter Password " android:textColor="@color/white" android:textSize="15dp"></TextView>
+                <EditText android:inputType="textPassword" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/etLoginPassword" android:layout_gravity="center" android:background="@drawable/text_box" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:layout_marginBottom="20dp" android:paddingLeft="5dp"></EditText>
+                <Button android:id="@+id/btnLogin" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:background="@drawable/sign_in"></Button>
+            </LinearLayout>
+            <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout6" android:layout_width="fill_parent" android:background="@drawable/box_bottom"></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

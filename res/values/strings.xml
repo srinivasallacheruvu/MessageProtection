@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">MessageProtection</string>
+     <string-array name="emoticons">
+		<item>:O</item>
+		<item>o_O</item>
+		<item>B-)</item>
+		<item>:,(</item>
+		<item>:-*</item>
+		<item>:-$</item>
+		<item>:-(</item>
+		<item>:-)</item>
+		<item>:-P</item>
+		<item>;-)</item>
+		<item>:-X</item>
+	</string-array>
+</resources>

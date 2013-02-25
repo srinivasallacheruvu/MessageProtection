@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/llTop"></LinearLayout>
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:background="@drawable/strip2" android:id="@+id/llBlockNoItem">
+		<TextView android:layout_height="wrap_content" android:text="TextView"
+			android:textSize="15dp"
+			android:textColor="@color/white" android:layout_marginLeft="10dp"
+			android:layout_marginTop="14dp" android:layout_marginBottom="10dp"
+			android:layout_width="wrap_content" android:width="110dp" android:id="@+id/txtBlockNo"></TextView>
+		<TextView android:text="TextView" android:layout_height="wrap_content"
+			android:layout_weight="1" android:layout_marginTop="14dp"
+			android:layout_width="fill_parent" android:layout_marginRight="25dp"
+			android:layout_marginBottom="10dp" android:layout_marginLeft="40dp" android:id="@+id/txtNoOfSMS" android:textColor="@color/steelblue"></TextView>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/llBottom"></LinearLayout>
+</LinearLayout>

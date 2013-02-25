@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:baselineAligned="true"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:orientation="vertical" android:layout_marginBottom="3dp" android:layout_marginTop="3dp">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/box_top" android:id="@+id/linearLayout1"></LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/box_middle" android:id="@+id/llSMSItem">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:width="110dp" android:textColor="@color/white" android:id="@+id/txtSmsBody" android:text="TextView" android:textSize="15dp" android:layout_margin="10dp"></TextView>
+            <TextView android:layout_marginLeft="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/txtSmsDate" android:text="TextView" android:layout_marginRight="10dp" android:gravity="right" android:textColor="@color/steelblue"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/box_bottom" android:id="@+id/linearLayout2"></LinearLayout>
+    </LinearLayout>
+</LinearLayout>
